@@ -1,0 +1,74 @@
+/* **********************   SIDEBAR STYLE PART  ************************* */
+.container {
+    display: flex;
+    gap: 2rem;
+    background-color: rgba(131, 220, 255, 0.29);
+    width: 100%;
+    /* border: 2px solid green; */
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .mainIcon {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .sidebar {
+    background: rgba(0, 21, 41);
+    color: #fff;
+    height: 100vh;
+    transition: all 0.5s;
+    position: sticky;
+    top: 0;
+  }
+  .top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    justify-content: center;
+  }
+  
+  .logo {
+    font-size: 30px;
+  }
+  .bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .link {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  .link:hover {
+    background: rgba(0, 21, 41);
+    color: rgb(155, 155, 155);
+    transition: all 0.5s;
+  }
+  .active {
+    background: rgba(0, 21, 41);
+    color: rgb(155, 155, 155);
+  }
+  .icon,
+  .link_text {
+    font-size: 15px;
+  }
+  
+  .LogOutPath .icon {
+    font-size: 2rem;
+  }
+  
+  .AfterSideBar {
+    width: 90%;
+    margin: 2rem;
+  }
